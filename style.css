@@ -66,3 +66,22 @@ a :hover {
 
 
 /**Heder**/
+
+
+/**Carousel**/
+
+.my-corousel {
+    padding: 0;
+}
+
+.carousel-item .my-corousel {
+    display: flex;
+    max-height: 500px;
+}
+
+.carousel-item .my-corousel img {
+    object-fit: cover;
+}
+
+
+/**Carousel**/
