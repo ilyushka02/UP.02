@@ -56,5 +56,13 @@ a :hover {
     transform: scale(1);
 }
 
+.modal-body img {
+    max-width: 100px;
+}
+
+.btn-close {
+    background-color: #fff;
+}
+
 
 /**Heder**/

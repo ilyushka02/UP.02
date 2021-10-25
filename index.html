@@ -52,7 +52,57 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-cart-plus"></i></a>
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </a>
+
+                        <div class="modal fade" id="modal-cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-dark text-white">
+                                        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td><img src="./image/product/Apple_macbook.jpg" alt=""></td>
+                                                    <td><a href="#">Apple macbook</a></td>
+                                                    <td>$300</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td><img src="./image/product/iphone.jpg" alt=""></td>
+                                                    <td><a href="#">Apple iphone</a></td>
+                                                    <td>$150</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td><img src="./image/product/imac.jpg" alt=""></td>
+                                                    <td><a href="#">Apple imac</a></td>
+                                                    <td>$500</td>
+                                                    <td>1</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                            <i class="fas fa-trash-alt"></i>
+                                            Clear
+                                        </button>
+                                        <button type="button" class="btn btn-primary">
+                                            <i class="far fa-credit-card"></i>
+                                            Buy
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
