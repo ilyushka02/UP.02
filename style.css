@@ -2,12 +2,12 @@ html {
     font-size: 16px;
 }
 
-bodyP {
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
-    background-color: #252931;
+    color: #000;
+    background-color: #fff;
     min-width: 320px;
 }
 
@@ -85,3 +85,115 @@ a :hover {
 
 
 /**Carousel**/
+
+
+/**Product card**/
+
+.product-card {
+    padding: 20px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+    transition: all .3s;
+}
+
+.product-thumb a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 20px;
+}
+
+.product-thumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-details h4 a {
+    color: #000;
+    font-weight: 500;
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.product-details p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #999;
+    height: 50px;
+    overflow: hidden;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+}
+
+.prouct-price {
+    font-size: 18px;
+    color: #ee6e73;
+    font-weight: 600;
+}
+
+.prouct-price small {
+    color: #ccc;
+    text-decoration: line-through 3px solid #C0C0C0;
+    margin-right: 10px;
+}
+
+.product-links {
+    font-size: 20px;
+}
+
+
+/**Product card**/
+
+
+/**Footer**/
+
+.footer {
+    background-color: #343434;
+}
+
+.footer h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #909090;
+    border-bottom: 2px solid #505050;
+    padding-bottom: 5px;
+}
+
+.footer li {
+    font-size: 12px;
+    color: #707070;
+    padding-bottom: 2px;
+}
+
+.footer a {
+    font-size: 12px;
+    color: #0000FF;
+    padding-bottom: 2px;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer li a {
+    display: block;
+}
+
+.footer-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+
+/**Footer**/
